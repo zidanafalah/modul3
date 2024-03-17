@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Background Example</title>
+<style>
+    /* Warna Background */
+    .color-background {
+        background-color: rgb(255, 0, 0);
+        padding: 200px;
+        height: 500px;
+        width: 5700px;
+    }
+
+    /* Gambar Background */
+    .image-background {
+        background-image: url('asset/pemandangan.jpeg');
+        background-size: cover;
+        padding: 200px;
+        height: 500px;
+        width: 5700px;
+    }
+
+    /* Campuran Background */
+    .mixed-background {
+        background: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(255, 255, 0, 0.5)), url('asset/pemandangan.jpeg');
+        background-size: cover;
+        padding: 200px;
+        height: 500px;
+        width: 5700px;
+    }
+    
+    .content {
+        padding: 200px;
+        text-align: center;
+        font-size: 240px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="color-background">
+</div>
+
+<div class="image-background">
+</div>
+
+<div class="mixed-background">
+</div>
+
+</body>
+</html>
